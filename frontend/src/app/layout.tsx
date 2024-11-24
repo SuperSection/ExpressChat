@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Express Chat App",
+  title: "Express Chat",
   description: "Chat quickly without any login",
 };
 
