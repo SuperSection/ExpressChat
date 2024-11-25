@@ -1,4 +1,4 @@
-import express, { Application, json } from "express";
+import express, { Application } from "express";
 import cors from "cors";
 
 const app: Application = express();
@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
-app.use(json());
+app.use(express.json());
 
 // Security middleware
 app.use(cors());
