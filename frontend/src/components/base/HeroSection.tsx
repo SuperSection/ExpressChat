@@ -25,8 +25,8 @@ export default function HeroSection() {
           src="/images/conversation.svg"
           alt="Illustration"
           className="w-full h-auto"
-          width="500"
-          height="500"
+          width={500}
+          height={500}
         />
       </div>
     </section>

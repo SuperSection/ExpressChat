@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Footer() {
   return (
     <footer className="px-8 py-4 bg-gray-900 text-white">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-y-3">
         <div>
           <h3>© 2024 ExpressChat. All rights reserved.</h3>
           <div className="flex justify-around mt-1">
